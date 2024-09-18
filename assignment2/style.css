@@ -1,0 +1,323 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*, *::before, *::after {
+    box-sizing: border-box;
+    
+  }
+  
+  /*
+    2. Remove default margin
+  */
+  * {
+    margin: 0;
+  }
+  
+  /*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+  body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  
+  /*
+    5. Improve media defaults
+  */
+  img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+  }
+  
+  /*
+    6. Remove built-in form typography styles
+  */
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  /*
+    7. Avoid text overflows
+  */
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+  
+  /*
+    8. Create a root stacking context
+  */
+  #root, #__next {
+    isolation: isolate;
+  }
+  /* list */
+  ul,ol {
+    list-style: none;
+    padding-left: 0;
+  } 
+  
+
+body{
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.main_cont{
+    max-width: 1440px;
+    padding: 0 155px;
+    margin: 0 auto;
+    margin-top: 43px;
+}
+
+.header{
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+.nav{
+    display: flex;
+}
+
+.company{
+    margin-right: 38px;
+}
+
+.img_logo{
+    display: inline;
+}
+.logo_img{
+    margin-right: 7px;
+}
+
+.logo_txt{
+    margin-bottom: 6px;
+}
+
+.nav_list{
+    display: flex;
+    align-items: center;
+}
+
+.nav_list_items{
+    margin-right: 24px;
+}
+.nav_list_items:last-child{
+    margin-right: 0;
+}
+.header_btns{
+    display: flex;
+}
+.header_sign_btn{
+    padding: 6px 0;
+    margin-right: 31px;
+    color: #0070A0;
+    background-color: inherit;
+}
+.header_book_btn{
+    padding: 6px 20px;
+    background-color: #0070A0;
+    color: #FFFFFF;
+}
+
+.btn{
+    cursor: pointer;
+    border:none;
+}
+
+
+.section_1{
+    padding: 51px 0px 69px 0px;
+    margin-bottom: 120px;
+
+    background-image: url("img/section_1_back.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+.h1{
+    max-width: 485px;
+    margin-bottom: 24px;
+
+    font-family: 'Fraunces';
+    font-size: 58px;
+    font-weight: 400;
+    line-height: 63.8px;
+    
+
+}
+
+.h2{
+    max-width: 351px;
+    margin-bottom: 29px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+
+}
+
+.section_1_btns{
+    display: flex;
+}
+
+.section_1_book_btn{
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+
+
+    background-color: #0070A0;
+    color: #FFFFFF;
+    padding: 8px 32px;
+    border:none;
+
+    margin-right: 24px;
+}
+
+.section_1_more_btn{
+    font-size: 17px;
+    line-height: 27px;
+    text-align: center;
+
+    background-color: inherit;
+    border:none;
+    color: #0070A0;
+    padding: 8px 20px 8px 0px;
+    background-image: url("img/arrow.svg");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+button{
+  cursor: pointer;
+}
+
+
+.section_2{
+  padding: 0 170px;
+
+  margin-bottom: 160px;
+}
+
+.h3{
+  text-align: center;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 37.5px;
+  margin-bottom: 24px;
+}
+
+.trust_list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.section_3{
+  margin-bottom: 134px;
+}
+
+.benefits_list{
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits_list_item{
+  padding: 95px 36px 38px 32px;
+
+  max-width: 355px;
+
+  background-image: url("img/benefits_icons/benefits1.svg");
+  background-repeat: no-repeat;
+  background-position: 32px 32px;
+}
+
+.benefits_list_item:nth-child(1){
+  background-color: #FAEA73;
+  background-image: url("img/benefits_icons/benefits1.svg");
+  
+  
+}
+.benefits_list_item:nth-child(2){
+  background-color: #CCEFF6;
+
+  background-image: url("img/benefits_icons/benefits2.svg");
+}
+.benefits_list_item:nth-child(3){
+  background-color: #F7CEDC;
+
+  background-image: url("img/benefits_icons/benefits3.svg");
+}
+
+.h4{
+  font-family: 'Fraunces';
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31.25px;
+  
+
+  margin-bottom: 13px ;
+}
+
+.card_text{
+  font-size: 15px;
+  line-height: 24px;
+  
+}
+
+.section_4{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 100px;
+}
+
+.section_4_header{
+  max-width: 300px;
+  padding-right: 37px;
+  font-family: 'Fraunces';
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 50.4px;
+ 
+}
+
+.about_list{
+  display: flex;
+  justify-content: space-between;
+
+}
+.about_list_item{
+  padding-top: 62px;
+  max-width: 223px;
+  margin-right: 32px;
+
+  background-repeat: no-repeat;
+  
+}
+
+.about_list_item:nth-child(2){
+  background-image: url("img/about_icons/about2.svg");
+}
+
+.about_list_item:last-child{
+  margin-right: 0;
+  background-image: url("img/about_icons/about3.svg");
+}
+.about_h4{
+  font-family: 'Fraunces';
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 31.25px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  
+  margin-bottom: 13px;
+
+}
+
+.about_text{
+  line-height: 24px;
+  
+}
