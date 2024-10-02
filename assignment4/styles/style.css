@@ -26,6 +26,8 @@ html{
 
 body{
     background: linear-gradient(180deg, #0E141C 0%, #0A0F14 100%);
+
+    /* background: linear-gradient(180deg, #0E141C 0%, #0A0F14 100%); */
     height: 100%;
 
     font-family: 'Uindbase';
@@ -183,6 +185,12 @@ a{
 
 /* CURRENT SEASON */
 
+.current_season_section{
+    margin-bottom: 28px;
+}
+
+
+
 .current_season_container{
     padding-top: 72px;
 }
@@ -192,7 +200,7 @@ a{
     position: relative;
     font-family: 'Usually', sans-serif;
 
-    margin-bottom: 72px;
+    margin-bottom: 28px;
 }
 .current_s_back_text{
     position: absolute;
@@ -211,5 +219,130 @@ a{
     line-height: 100px;
     text-align: left;
     padding-top: 42px;
+}
 
+.collection_block {
+    position: relative;
+    width: 100%;
+    max-width: 1248px;
+    margin-left: 13%; 
+    margin-bottom: 80px;
+  }
+  
+.collection_image {
+    width: 100%; 
+    height: auto;
+}
+  
+.collection_content {
+    max-width: 300px;
+    position: absolute;
+    right: 100px;
+    bottom: 162px;
+    color: white;
+    text-align: center;
+}
+  
+.collection_description {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: center;
+
+    margin-bottom: 15px;
+}
+
+/* ACTUALS */
+
+.actual_section{
+    /* margin-bottom: 50px; */
+}
+
+
+.actual_text_wrapper{
+    position: relative;
+    font-family: 'Usually', sans-serif;
+
+    margin-bottom: 90px;
+}
+.actual_back_text{
+    position: absolute;
+    bottom: 0;
+    color: rgba(255, 255, 255, 0.1); 
+    font-size: 160px;
+    font-weight: 700;
+    line-height: 160px;
+    text-align: right;
+    letter-spacing: 10px;
+
+}
+.actual_front_text{
+    position: relative;
+    font-family: 'Uindbase';
+    font-size: 100px;
+    font-weight: 400;
+    line-height: 100px;
+    text-align: right;
+    padding-top: 42px;
+}
+
+.actuals_list{
+    width: 100%;
+    max-width: 1248px;
+    margin-left: 13%; 
+    margin-bottom: 80px;
+}
+
+
+.actual_list_item *{
+    max-width: 272px;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+.actual_img{
+    width: 100%;
+    height: 373px;
+    object-fit: cover;
+}
+.price_and_basket{
+    padding: 0 10px;
+}
+.see_more{
+    max-width: 1248px;
+    text-align: end;
+    margin-left: 13%;
+    margin-bottom: 50px;
+}
+
+
+
+/* FOOTER */
+
+.footer{
+    padding-top: 39px;
+    padding-bottom: 64px;
+    background: linear-gradient(180deg, #0E141C 0%, #0A0F14 100%);
+
+}
+
+.footer_container{
+    max-width: 1602px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_container * {
+    font-family: 'Rosario', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 18.18px;
+}
+.logo_and_info img{
+    margin-bottom: 10px;
+}
+.year_and_name{
+    padding: 0 18px 0 38px ;
 }
