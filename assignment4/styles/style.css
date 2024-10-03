@@ -427,6 +427,7 @@ text-align: left;
     }
     .front_text{
         font-size: 6.25em;
+        margin: 0 auto;
 
         padding-top: 30px;
     }
@@ -437,6 +438,7 @@ text-align: left;
 
 
     /* CURRENT SEASON */
+    
 
     .current_season_container{
         padding-top: 0;
@@ -458,5 +460,53 @@ text-align: left;
     }
     .collection_block{
         margin-left: 0;
+    }
+
+    /* ACTUAL */
+
+    .actual_container{
+        max-width: 1248px;
+    }
+
+    .actuals_list{
+        margin-left: 0;
+    }
+    .actual_text_wrapper{
+        margin-bottom: 161px;
+    }
+    .actual_back_text{
+        max-width: 1248px;
+        top: 0;
+    }
+    .actual_front_text{
+        padding-top: 63px;
+    }
+    .contacts_container{
+        max-width: 1248px;
+    }
+    /* CONTACTS */
+    .contacts{
+        margin-bottom: 64px;
+    }
+
+    .contacts_back_text{
+        font-size: 160px;
+        line-height: 160px;
+    }
+    .contacts_front_text{
+        font-size: 60px;
+        line-height: 60px;
+
+        padding-top: 68px;
+    }
+    .map_container{
+        max-width: 834px;
+        min-height: 425px;
+    }
+}
+
+@media (max-width: 1611px){
+    .front_text{
+        max-width: 1162px;
     }
 }
